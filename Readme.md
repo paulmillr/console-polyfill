@@ -6,9 +6,6 @@ Browser console polyfill. Makes it safe to do console.log()-s etc always.
     $ component install brunch/console-polyfill
 
 ## License
-
-  MIT
-
 The MIT License (MIT)
 
 Copyright (c) 2013 Paul Miller (http://paulmillr.com/)
