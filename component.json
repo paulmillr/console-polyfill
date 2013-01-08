@@ -1,6 +1,6 @@
 {
   "name": "console-polyfill",
-  "repo": "brunch/console-polyfill",
+  "repo": "paulmillr/console-polyfill",
   "description": "Browser console polyfill. Makes it safe to do console.log()-s etc always.",
   "version": "0.0.1",
   "keywords": ["console", "polyfill"],
