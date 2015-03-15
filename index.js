@@ -12,8 +12,8 @@
   var methods = ('assert,clear,count,debug,dir,dirxml,error,exception,group,' +
      'groupCollapsed,groupEnd,info,log,markTimeline,profile,profiles,profileEnd,' +
      'show,table,time,timeEnd,timeline,timelineEnd,timeStamp,trace,warn').split(',');
-  while (prop = properties.pop()) con[prop] = con[prop] || empty;
-  while (method = methods.pop()) con[method] = con[method] || dummy;
+  while (prop = properties.pop()) if (!con[prop]) con[prop] = empty;
+  while (method = methods.pop()) if (!con[method]) con[method] = dummy;
 })(typeof window === 'undefined' ? this : window);
 // Using `this` for web workers while maintaining compatibility with browser
 // targeted script loaders such as Browserify or Webpack where the only way to
