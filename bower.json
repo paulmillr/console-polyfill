@@ -3,5 +3,6 @@
   "version": "0.2.1",
   "description": "Browser console polyfill. Makes it safe to do console.log()-s etc always.",
   "main": "index.js",
+  "ignore": ["component.json"],
   "dependencies": {}
 }
