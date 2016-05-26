@@ -3,7 +3,9 @@
 // Make it safe to do console.log() always.
 (function(global) {
   'use strict';
-  global.console = global.console || {};
+  if (!global.console) {
+    global.console = {};
+  }
   var con = global.console;
   var prop, method;
   var dummy = function() {};
