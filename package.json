@@ -1,12 +1,9 @@
 {
   "name": "console-polyfill",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Browser console polyfill. Makes it safe to do console.log()-s etc always.",
   "main": "index.js",
   "files": ["index.js"],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/paulmillr/console-polyfill"
