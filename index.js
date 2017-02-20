@@ -14,6 +14,6 @@
      'groupCollapsed,groupEnd,info,log,markTimeline,profile,profiles,profileEnd,' +
      'show,table,time,timeEnd,timeline,timelineEnd,timeStamp,trace,warn').split(',');
   while (prop = properties.pop()) if (!con[prop]) con[prop] = {};
-  while (method = methods.pop()) if (typeof con[method] !== 'function') con[method] = dummy;
+  while (method = methods.pop()) if (!con[method]) con[method] = dummy;
   // Using `this` for web workers & supports Browserify / Webpack.
 })(typeof window === 'undefined' ? this : window);
