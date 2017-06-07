@@ -1,6 +1,6 @@
 {
   "name": "console-polyfill",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Browser console polyfill. Makes it safe to do console.log()-s etc always.",
   "main": "index.js",
   "files": ["index.js"],
