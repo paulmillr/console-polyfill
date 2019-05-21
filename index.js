@@ -12,7 +12,7 @@
   var properties = ['memory'];
   var methods = ('assert,clear,count,debug,dir,dirxml,error,exception,group,' +
      'groupCollapsed,groupEnd,info,log,markTimeline,profile,profiles,profileEnd,' +
-     'show,table,time,timeEnd,timeline,timelineEnd,timeStamp,trace,warn').split(',');
+     'show,table,time,timeEnd,timeline,timelineEnd,timeStamp,trace,warn,timeLog,trace').split(',');
   while (prop = properties.pop()) if (!con[prop]) con[prop] = {};
   while (method = methods.pop()) if (!con[method]) con[method] = dummy;
   // Using `this` for web workers & supports Browserify / Webpack.
